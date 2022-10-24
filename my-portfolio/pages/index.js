@@ -14,6 +14,7 @@ import Metadata from "@components/MetaData";
 import pageMeta from "@content/meta";
 import SkillSection from "@components/SkillSection";
 import AnimatedHeading from "@components/AnimatedHeading";
+import Contact from "@components/Contact";
 import { getPinnedSkills } from "@lib/dataFetch";
 
 export default function Home({ skills }) {
@@ -89,6 +90,7 @@ export default function Home({ skills }) {
           </div>
         </motion.section>
         <SkillSection skills={skills} />
+        <Contact/>
       </div>
     </>
   );
