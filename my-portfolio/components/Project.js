@@ -4,7 +4,6 @@ import Link from "next/link";
 import OgImage from "@components/OgImage"; 
 
 export default function Project({ project }) {
-    console.log(project);
     return (
         <div className="card">
             <OgImage

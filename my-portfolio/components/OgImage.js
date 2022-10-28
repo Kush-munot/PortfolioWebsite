@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useDarkMode } from "@context/darkModeContext";
 
 function OgImage({ src, alt }) {
-    console.log(src);
     return (
         <div className="relative -mt-[35%] sm:-mt-0 md:-ml-[35%] w-full sm:w-1/2 md:w-8/12 shrink-0 rounded-xl overflow-hidden shadow-2xl before:absolute before:inset-0 dark:before:bg-black/20 before:z-10">
             <Image
