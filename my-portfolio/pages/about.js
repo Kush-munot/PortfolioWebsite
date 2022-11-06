@@ -2,7 +2,7 @@ import React from "react";
 import { popUpFromBottomForText } from "../content/FramerMotionVariant";
 import AnimatedHeading from "../components/FramerMotion/AnimatedHeading";
 import "react-toastify/dist/ReactToastify.css";
-import AnimatedText from "../components/FramerMotion/AnimatedText"; // ======>> not created yet
+import AnimatedText from "../components/FramerMotion/AnimatedText";
 
 export default function Contact() {
     return (

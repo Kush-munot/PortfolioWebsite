@@ -80,7 +80,7 @@ export default function Home({ skills }) {
               <Ripples className="w-full" color="rgba(0, 0, 0, 0.5)">
                 <button
                   className="flex items-center gap-2 px-5 py-2 border rounded-md border-gray-500 dark:border-gray-400 select-none  hover:bg-gray-100 dark:hover:bg-neutral-800 outline-none"
-                  onClick={() => window.open("/resume")}
+                  onClick={() => window.open("https://drive.google.com/file/d/1tCfEzI0ELzc-YLcLS8WN8RyWELEADsb9/view?usp=sharing")}
                 >
                   <FiDownload />
                   <p>Resume</p>
