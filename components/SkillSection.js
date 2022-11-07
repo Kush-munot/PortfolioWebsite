@@ -27,7 +27,7 @@ import {
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { useDarkMode } from "@context/darkModeContext";
-import * as WindowsAnimation from "@lib/windowsAnimation";
+import * as WindowsAnimation from "@lib/WindowsAnimation";
 
 export default function SkillSection({ skills }) {
     const { isDarkMode } = useDarkMode();
