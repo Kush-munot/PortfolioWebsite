@@ -1,8 +1,8 @@
-/* const withBundleAnalyzer = require("@next/bundle-analyzer")({
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
     enabled: process.env.ANALYZE === "true",
 });
 
-const withPWA = require("next-pwa");
+/*const withPWA = require("next-pwa");
  */
 /* module.exports = withBundleAnalyzer(
     withPWA({
@@ -31,9 +31,9 @@ const withPWA = require("next-pwa");
 ); */
 
 
-module.exports ={
+module.exports = {
     reactStrictMode: true,
     images: {
-    domains: ["i.imgur.com"],
+        domains: ["i.imgur.com"],
     }
 }

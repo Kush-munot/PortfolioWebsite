@@ -6,7 +6,6 @@ import {
   opacityVariant,
   popUp,
 } from "@content/FramerMotionVariant";
-import { homeProfileImage } from "@utils/utils"; // not created yet
 import { motion } from "framer-motion";
 import { FiDownload } from "react-icons/fi";
 import Ripples from "react-ripples";

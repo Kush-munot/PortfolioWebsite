@@ -12,7 +12,7 @@ import Ripples from "react-ripples";
 
 // initial State of the form
 const initialFormState = {
-    to_name: "Jatin Sharma",
+    to_name: "Kush Munot",
     first_name: "",
     last_name: "",
     email: "",
@@ -29,6 +29,7 @@ export default function Form() {
     function sendEmail(e) {
         e.preventDefault();
         setLoading(true);
+        console.log(emailInfo);
 
         emailjs
             .send(
