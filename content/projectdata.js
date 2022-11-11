@@ -31,17 +31,17 @@ module.exports = [
         tools: ["Python", "OpenCV", "VS Code", "Markdown", "Github"],
         pinned: true,
     },
-    /* {
+    {
         id: 3,
-        name: "RCOEM Overflow",
-        coverURL: Imagizer,
+        name: "College Wit",
+        coverURL: "https://i.imgur.com/YExlaVM.png",
         description:
-            "We have created a Platform where students can ask Questions to their seniors or super Seniors. They can get Guidance, Mentorship through the website. The Platform also has resources for Placement and PYQs too.",
-        githubURL: "",
-        previewURL: "",
-        tools: ["React.js", "Material UI", "Firebase", "Netlify", "Figma", "Github"],
+            "We have created a Platform where students can ask Questions to their seniors. They can get Guidance, Mentorship, Previous Year Questions and many other resources through the website.",
+        githubURL: "https://collegewit.netlify.app/",
+        previewURL: "https://collegewit.netlify.app/",
+        tools: ["React.js", "Material UI", "Firebase", "Netlify", "EmailJS", "Github", "Figma"],
         pinned: true,
-    }, */
+    },
     {
         id: 4,
         name: "React.js Workshop Event Page",
