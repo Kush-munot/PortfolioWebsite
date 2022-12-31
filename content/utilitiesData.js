@@ -45,7 +45,7 @@ const utilities = {
     title: "Utilities",
     description:
         "In case you are wondering What tech I use, Here's the list of what tech I'm currently using for coding on the daily basis. This list is always changing.",
-    lastUpdate: "November 06, 2022",
+    lastUpdate: "December 06, 2022",
 
     /* System */
 

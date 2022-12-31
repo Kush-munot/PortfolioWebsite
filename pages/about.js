@@ -8,17 +8,17 @@ export default function Contact() {
     return (
         <div id="contact" className="dark:bg-darkPrimary !relative">
             {/* Get in touch top section */}
-            <section className="w-full-width text-left pt-20 pl-20  dark:bg-darkPrimary dark:text-white">
+            <section className="pageTop py-10">
                 <AnimatedHeading
                     variants={popUpFromBottomForText}
-                    className="font-bold text-4xl"
+                    className="font-bold text-5xl"
                 >
                     About Me
                 </AnimatedHeading>
 
                 <AnimatedText
                     variants={popUpFromBottomForText}
-                    className="py-2 pr-10 font-medium text-slate-400"
+                    className="py-5 pr-10 font-medium text-slate-400"
                 >
                     Hey, I am Kush Munot. A Front-end Developer/React Developer from India who loves to design and code. I use React.js or Next.js to build the web application interfaces and the functionalities. At the moment, I am pursuing my Bachelor's degree in Computer Science.<br /><br />
 

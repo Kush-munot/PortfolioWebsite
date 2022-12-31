@@ -11,6 +11,28 @@ import til from '/public/assets/tilWebsite.png' */
 module.exports = [
     {
         id: 1,
+        name: "College Wit",
+        coverURL: "https://i.imgur.com/YExlaVM.png",
+        description:
+            "We have created a Platform where students can ask Questions to their seniors. They can get Guidance, Mentorship, Previous Year Questions and many other resources through the website.",
+        githubURL: "https://collegewit.netlify.app/",
+        previewURL: "https://collegewit.netlify.app/",
+        tools: ["React.js", "Material UI", "Firebase", "Netlify", "EmailJS", "Github", "Figma"],
+        pinned: true,
+    },
+    {
+        id: 2,
+        name: "Geeks For Geeks RCOEM Website",
+        coverURL: "https://i.imgur.com/hDNnr5x.png",
+        description:
+            "GFG RCOEM Chapter is a student based community lead by Kush Munot. The Chapter aims to provide top notch skills to students in RCOEM Campus",
+        githubURL: "https://github.com/",
+        previewURL: "https://gfgrcoem.netlify.app/",
+        tools: ["React.js", "Material UI", "Node.js", "MongoDB", "Github", "Vercel"],
+        pinned: true,
+    },
+    {
+        id: 2,
         name: "Unlock - Password Strength Checker",
         coverURL: "https://i.imgur.com/vxCPytv.png",
         description:
@@ -21,7 +43,7 @@ module.exports = [
         pinned: true,
     },
     {
-        id: 2,
+        id: 3,
         name: "Python Image Package",
         coverURL: "https://i.imgur.com/PJY6aGM.png",
         description:
@@ -29,17 +51,6 @@ module.exports = [
         githubURL: "https://github.com/Kush-munot/CG_Assignment.git",
         previewURL: "https://pypi.org/project/py-imagizer/",
         tools: ["Python", "OpenCV", "VS Code", "Markdown", "Github"],
-        pinned: true,
-    },
-    {
-        id: 3,
-        name: "College Wit",
-        coverURL: "https://i.imgur.com/YExlaVM.png",
-        description:
-            "We have created a Platform where students can ask Questions to their seniors. They can get Guidance, Mentorship, Previous Year Questions and many other resources through the website.",
-        githubURL: "https://collegewit.netlify.app/",
-        previewURL: "https://collegewit.netlify.app/",
-        tools: ["React.js", "Material UI", "Firebase", "Netlify", "EmailJS", "Github", "Figma"],
         pinned: true,
     },
     {
@@ -55,7 +66,7 @@ module.exports = [
     },
     {
         id: 5,
-        name: "React.js Portfolio",
+        name: "React.js Portfolio v1",
         coverURL: "https://i.imgur.com/eAHM9Wd.png",
         description:
             "In The React.js Workshop I learnt React.js and tried to make my very first Portfolio Website. It is fully responsive and made using React.js and Material UI",
